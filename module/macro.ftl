@@ -25,9 +25,7 @@
     </div>
 </div>
 <@global.footer />
-<#include "search-box.ftl">
 </body>
-<#include "script.ftl">
 </html>
 </#macro>
 
