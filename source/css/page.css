@@ -1,0 +1,58 @@
+.page {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.aside {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    height: 100%;
+    overflow-y: auto;
+    background-color: #fff;
+    color: #4a4a4a;
+}
+
+.aside .fix {
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 4.5rem;
+    width: 100%;
+    z-index: 1;
+}
+
+.aside .dock{
+    flex-grow: 1;
+}
+
+.aside .dock ul{
+    height: 98%;
+    padding: 1rem 0;
+    border-right: #eeeeee 1px solid;
+}
+
+.aside ul li {
+    line-height: 1.8rem;
+}
+
+.left {
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 4.5rem 0;
+    width: 12rem;
+}
+
+.ad-view{
+    flex-grow: 1;
+    padding: 4.5rem 1rem;
+}
+
+.article {
+    flex-grow: 1;
+    padding: 4.5rem 0;
+    width: 60%;
+}
+
+.article p, li {
+}

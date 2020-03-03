@@ -1,0 +1,160 @@
+blockquote,
+body,
+dd,
+dl,
+dt,
+fieldset,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+iframe,
+legend,
+li,
+ol,
+p,
+pre,
+textarea,
+ul,
+div,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    border: 0;
+}
+
+.home {
+    padding: 4.5rem 0;
+}
+
+.hero {
+    box-shadow: 0 2px 0 0 #f5f5f5;
+}
+
+.hero .hero-body {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.hero .hero-body .container {
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+
+.hero .hero-body .container .title {
+    color: #363636;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+    margin-bottom: 1.5rem;
+    word-break: break-word;
+}
+
+.hero .hero-body .container .is-size-1 {
+    font-size: 3rem !important;
+}
+
+.hero .hero-body .container .subtitle {
+    color: #4a4a4a;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;
+    word-break: break-word;
+    margin-bottom: 1.5rem;
+}
+
+.hero .hero-body .container .button {
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    padding: .5em 1em;
+}
+
+.hero .hero-body .container .button:hover {
+    border-color: #b5b5b5;
+    color: #363636;
+}
+
+.hero .hero-body .has-text-centered {
+    text-align: center !important;
+}
+
+.body-content {
+    margin-top: 50px;
+}
+
+.body-content .content-container {
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+
+.body-content .content-container .tile {
+    margin-bottom: .75rem;
+    align-items: stretch;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-height: min-content;
+}
+
+.body-content .content-container .tile .is-parent {
+    padding: .75rem;
+}
+
+.body-content .content-container .tile .is-parent .box {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.02);
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem;
+}
+
+.body-content .content-container .tile .is-parent .box .is-4 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #363636;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+.body-content .content-container .is-ancestor {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    margin-top: -0.75rem;
+}
+
+@media screen and (min-width: 769px) {
+    .hero-body {
+        padding: 9rem 1.5rem;
+    }
+
+    .tile:not(.is-child) {
+        display: flex;
+    }
+}

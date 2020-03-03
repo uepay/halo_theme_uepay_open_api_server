@@ -1,0 +1,116 @@
+.search-icon {
+    cursor: pointer;
+}
+
+.search-box {
+    /*display: none;*/
+    perspective: 50em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    transform-origin: 0;
+}
+
+.search-box-container {
+    position: fixed;
+    left: 50%;
+    top: 100px;
+    width: 540px;
+    z-index: 101;
+    bottom: 100px;
+    margin-left: -270px;
+    box-sizing: border-box;
+}
+
+.search-box-input-wrapper {
+    position: relative;
+}
+
+/*搜索输入框*/
+.search-box-input {
+    width: 100%;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    box-shadow: none;
+    font-weight: 200;
+    border-radius: 0;
+    background: #fff;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding: 12px 28px 12px 20px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+/*输入框关闭按钮*/
+.search-box-close {
+    top: 50%;
+    right: 6px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    margin-top: -11px;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.ins-section-container{
+    position: relative;
+    background-color: #f7f7f7;
+}
+
+.ins-section-header{
+    color: #9a9a9a;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 8px 15px;
+}
+
+
+.search-box-result-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 45px;
+    bottom: 0;
+    overflow-y: auto;
+    background-color: #f7f7f7;
+}
+
+.ins-selectable {
+    padding: 8px 15px;
+}
+
+
+.ins-selectable li {
+   padding: 2px;
+}
+
+
+.ins-selectable li a {
+    color: #2475b5;
+}
+
+.modal-box {
+    padding: 8px 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.modal-box li {
+    border: 1px solid #f5ab35;
+    padding: 3px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: cornflowerblue;
+}
+
+.show {
+  display: block;
+}

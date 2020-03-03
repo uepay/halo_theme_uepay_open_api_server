@@ -1,0 +1,164 @@
+.article-dock {
+    flex-grow: 1;
+}
+
+.article-dock-contain {
+    height: 98%;
+    border-right: #eeeeee 1px solid;
+}
+
+.article-dock-contain ul {
+}
+
+.article-dock-contain ul ul {
+    padding-left: .5rem;
+}
+
+/*full text*/
+.full-text {
+    padding: 1rem;
+    color: #3d464d;
+    line-height: 28px;
+}
+
+.full-text {
+    margin: 0 0 .5rem .9rem;
+    padding: 8px 15px;
+}
+
+.full-text h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.full-text h2 {
+    padding-right: 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px dashed #eeeeee;
+}
+
+.full-text h3 {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.full-text p {
+    margin-bottom: .8rem;
+    font-size: .8rem;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.full-text img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+.full-text a {
+    color: #46b;
+    transition: color .3s;
+}
+
+.full-text ul {
+    list-style-type: disc;
+    margin: 0 0 0 .9rem;
+    padding: 8px 15px;
+}
+
+.full-text ol {
+    list-style-type: decimal;
+    margin: 0 0 0 .9rem;
+    padding: 8px 15px;
+}
+
+.full-text ol ol {
+    list-style-type: lower-roman;
+}
+
+.full-text ol ol ol {
+    list-style-type: lower-alpha;
+}
+
+.full-text ol ol ol {
+    list-style-type: lower-latin;
+}
+
+.full-text li {
+    display: list-item;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.full-text pre code {
+    overflow-x: auto;
+    border-radius: 4px;
+    line-height: 1.4;
+    word-wrap: normal;
+    display: block;
+    background-color: #2b2b2b;
+    color: #fff;
+    font-size: 13px;
+    font-family: Menlo, Monaco, Consolas, Courier New, monospace;
+}
+
+.full-text blockquote {
+    border-left: .25em solid #dfe2e5;
+    color: #6a737d;
+    padding: 0 1em;
+}
+
+.full-text code {
+    color: #1a1a1a;
+    background-color: rgba(255,229,100,0.2);
+    border-radius: 3px;
+    padding: .05rem .2rem;
+}
+
+.full-text table {
+    display: block;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    color: #444;
+    overflow: auto;
+    max-width: 100% !important;
+    width: 100%;
+    border: none;
+    line-height: inherit;
+    word-break: keep-all;
+    margin: 0 0 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+}
+
+.full-text table thead tr {
+    background: #f1f8f2;
+}
+
+.full-text table thead th {
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+    word-wrap: break-word;
+}
+
+.full-text table tbody tr {
+    background-color: #fff;
+}
+
+.full-text table tbody tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+
+.full-text table td {
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+    word-break: break-all;
+    word-wrap: break-word;
+}

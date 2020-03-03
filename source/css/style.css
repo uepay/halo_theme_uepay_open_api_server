@@ -1,0 +1,99 @@
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Hiragino Sans GB","Microsoft YaHei UI","Microsoft Yahei","Microsoft Jhenghei","Arial";
+    font-size: 20px;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: .8rem;
+    background-color: #fff;
+}
+
+body, dl, h1, h2, h3, h4, h5, h6, li, ol, ul, p, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+a:link {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+a:active {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+/*head*/
+.head {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1.2rem 2rem;
+    border-bottom: 1px solid #eee;
+    z-index: 5;
+    background-color: #fff;
+}
+
+.head .nav {
+    max-width: 1360px;
+    width: 100%;
+}
+
+.head .nav ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.head .nav li {
+    margin-right: 1.5rem;
+    font-size: .9rem;
+    line-height: 1.5rem;
+}
+
+.head .logo{
+    width: 2rem;
+    height: auto;
+}
+
+/*=====*/
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.content .section {
+    max-width: 1360px;
+    width: 100%;
+    height: 100%;
+}
