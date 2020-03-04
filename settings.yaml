@@ -8,3 +8,7 @@ genernal:
       label: 首页公告
       type: textarea
       default: '欢迎使用UePay'
+    search_page:
+      name: search_page
+      label: 搜索页地址
+      type: text
