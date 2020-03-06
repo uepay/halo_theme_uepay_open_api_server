@@ -9,6 +9,7 @@
     <title>找不到網頁 - ${options.blog_title!}</title>
 </head>
 <body>
+<<<<<<< HEAD
     <div class="body404">
         <div class="info404">
             <header id="header404" class="clearfix">
@@ -21,5 +22,19 @@
             </section>
         </div>
     </div>
+=======
+<div class="body404">
+    <div class="info404">
+        <header id="header404" class="clearfix">
+            <div class="site-name404">404</div>
+        </header>
+        <section>
+            <div class="title404">
+                <p>咦？頁面出錯了？！</p>
+            </div><a href="${context!}" class="index404">返回首頁</a>
+        </section>
+    </div>
+</div>
+>>>>>>> 2953e94ebcebb60e2110536ae6208718a8fbf4e2
 </body>
 </html>
