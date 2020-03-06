@@ -9,7 +9,6 @@
     <title>找不到網頁 - ${options.blog_title!}</title>
 </head>
 <body>
-<<<<<<< HEAD
     <div class="body404">
         <div class="info404">
             <header id="header404" class="clearfix">
@@ -22,7 +21,6 @@
             </section>
         </div>
     </div>
-=======
 <div class="body404">
     <div class="info404">
         <header id="header404" class="clearfix">
@@ -35,6 +33,5 @@
         </section>
     </div>
 </div>
->>>>>>> 2953e94ebcebb60e2110536ae6208718a8fbf4e2
 </body>
 </html>
