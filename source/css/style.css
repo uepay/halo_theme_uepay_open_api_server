@@ -12,6 +12,7 @@ html * {
 body {
     width: 100%;
     height: 100%;
+    padding-top: 88px !important;
     font-size: .8rem;
     background-color: #fff;
 }
@@ -54,6 +55,8 @@ a:active {
 .head {
     width: 100%;
     height: 88px;
+    position: fixed;
+    top: 0;
     padding-left: 220px;
     padding-top: 27px;
     padding-bottom: 27px;
@@ -63,7 +66,7 @@ a:active {
 }
 
 .header-title {
-    width: 15%;
+    width: 250px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -94,18 +97,19 @@ a:active {
 }
 
 /*=====*/
-/*.content {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    padding: 0 2rem;*/
-/*    width: 100%;*/
-/*}*/
+.content {
+    position: relative;
+    /*top: 88px;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*padding: 0 2rem;*/
+    width: 100%;
+}
 
-/*.content .section {*/
-/*    max-width: 1360px;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*}*/
+.content .section {
+    width: 100%;
+    height: 100%;
+}
 
 .article-box {
     padding-left: 220px;
@@ -171,7 +175,8 @@ a:active {
 }
 
 .footer-box {
-    /*padding: 0 220px;*/
+    position: relative;
+    top: 88px;
 }
 
 .msg-box {
@@ -183,4 +188,9 @@ a:active {
     height: 60px;
     line-height: 60px;
     font-weight:400;
+}
+
+.sider-bar {
+    width: 300px;
+    height: 800px;
 }
