@@ -1,6 +1,7 @@
 <header class="head">
-    <nav class="nav">
-        <#include "nav.ftl">
-    </nav>
-    <img class="logo" src="${static!}/source/images/logo.png" width="50rem" height="50rem" alt="">
+    <div class="header-title">
+        <img class="logo" src="${static!}/source/images/logo.png" width="124px" height="34px" alt="">
+        <div class="line"></div>
+        <span class="header-text">開放平台</span>
+    </div>
 </header>

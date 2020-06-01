@@ -10,45 +10,54 @@
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
 <div class="page">
     <aside class="aside">
-        <div class="fix"></div>
-        <div class="article-dock">
-<!--            <div class="article-dock-contain">-->
-<!--                <ul>-->
-<!--                    <li><a href="${context}/archives/${post.url!}#step配置">step配置</a>-->
-<!--                        <ul>-->
-<!--                            <li><a href="${context}/archives/${post.url!}#面向分片的处理过程">面向分片的处理过程</a></li>-->
-<!--                            <ul>-->
-<!--                                <li><a href="${context}/archives/${post.url!}#面向分片的处理过程">面向分片的处理过程</a></li>-->
-<!--                                <ul>-->
-<!--                                    <li><a href="${context}/archives/${post.url!}#面向分片的处理过程">面向分片的处理过程</a></li>-->
-<!--                                </ul>-->
-<!--                            </ul>-->
-<!--                        </ul>-->
-<!--                    </li>-->
-<!--                </ul>-->
-<!--            </div>-->
-        </div>
+
+<#--        <ul>-->
+<#--            <@postTag method="latest" top="3">-->
+<#--                <#list posts as post>-->
+<#--                    <li><a href="${context}/archives/${post.url!}">${post.title!}</a></li>-->
+<#--                </#list>-->
+<#--            </@postTag>-->
+<#--        </ul>-->
+<#--        <div class="fix"></div>-->
+<#--        <div class="article-dock">-->
+<#--           <div class="article-dock-contain">-->
+<#--              <ul>-->
+<#--                  <li><a href="${context}/archives/${post.url!}#step配置">step配置</a>-->
+<#--                      <li><a href="${context}/archives/${post.url!}#面向分片的处理过程">面向分片的处理过程</a></li>-->
+<#--                       <ul>-->
+<#--                           <li><a href="${context}/archives/${post.url!}#面向分片的处理过程">面向分片的处理过程</a></li>-->
+<#--                        <ul>-->
+<#--                             <li><a href="${context}/archives/${post.url!}#面向分片的处理过程">面向分片的处理过程</a></li>-->
+<#--                           </ul>-->
+<#--                        </ul>-->
+<#--                     </ul>-->
+<#--                  </li>-->
+<#--               </ul>-->
+<#--           </div>-->
+<#--        </div>-->
     </aside>
-    <div class="left"></div>
+    <#include "post_directory.ftl">
     <section class="article">
         <div class="full-text">
-            ${post.formatContent!}
+<#--            <#list posts as post>-->
+                <div>${post.formatContent!}</div>
+<#--            </#list>-->
         </div>
     </section>
 </div>
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        document.querySelectorAll('pre code').forEach(function (block) {
-            hljs.highlightBlock(block);
-        });
-        renderMathInElement($('.full-text')[0], {
-            delimiters: [
-                {left: "$$", right: "$$", display: true},
-                {left: "$", right: "$", display: false},
-                {left: "\\(", right: "\\)", display: false},
-                {left: "\\[", right: "\\]", display: true}
-            ]
-        });
-    });
+    // document.addEventListener("DOMContentLoaded", function() {
+    //     document.querySelectorAll('pre code').forEach(function (block) {
+    //         hljs.highlightBlock(block);
+    //     });
+    //     renderMathInElement($('.full-text')[0], {
+    //         delimiters: [
+    //             {left: "$$", right: "$$", display: true},
+    //             {left: "$", right: "$", display: false},
+    //             {left: "\\(", right: "\\)", display: false},
+    //             {left: "\\[", right: "\\]", display: true}
+    //         ]
+    //     });
+    // });
 </script>
 </@layout>
