@@ -11,6 +11,7 @@
                     <div class="item-box">
                         <img src="${static!}/source/images/ico1.png" width="110px" alt="">
                         <h4 class="article-title">${post.title}</h4>
+                        <div>${post.thumbnail}</div>
                         <span>${post}</span>
                     </div>
                 </a>

@@ -11,7 +11,7 @@
     <title>${title}</title>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" type='text/css'
           media='all'/>
-    <link rel="stylesheet" href="${static!}/source/css/style.css?version=1.8">
+    <link rel="stylesheet" href="${static!}/source/css/style.css?version=1.9">
     <link rel="stylesheet" href="${static!}/source/css/main.css?version=1.1">
     <script src="${static!}/source/js/jquery.js?version=1"></script>
     <script src="${static!}/source/js/main.js"></script>
@@ -22,7 +22,6 @@
     <div class="section">
         <div class="fix"></div>
         <#nested>
-<#--        <#include "content.ftl">-->
     </div>
 </div>
 <#include "footer.ftl">

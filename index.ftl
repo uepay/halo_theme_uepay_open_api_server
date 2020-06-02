@@ -1,9 +1,3 @@
-<#--<#include "module/macro.ftl">-->
-<#--<@layout title="${options.blog_title!}" keywords="${options.seo_keywords!}" description="${options.seo_description!}">-->
-<#--<div class="home">-->
-<#--    <#include "ad.ftl">-->
-<#--</div>-->
-<#--</@layout>-->
 <#include "module/macro.ftl">
 <@layout title="${options.blog_title!}" keywords="${options.seo_keywords!}" description="${options.seo_description!}">
     <div class="conduct-box">
@@ -22,7 +16,11 @@
                 <div class="article-item">
                     <a class="article-link" href="${post.fullPath}">
                         <div class="item-box">
-                            <img src="${static!}/source/images/ico1.png" width="110px" alt="">
+                            <#if post.thumbnail?length gt 0>
+                                <img src="${post.thumbnail}" width="110px" alt="">
+                            <#else>
+                                <img src="${static!}/source/images/ico1.png" width="110px" alt="">
+                            </#if>
                             <h4 class="article-title">${post.title}</h4>
                         </div>
                     </a>

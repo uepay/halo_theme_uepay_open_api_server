@@ -11,7 +11,7 @@
 }
 
 .article-dock-contain ul ul {
-    padding-left: .5rem;
+    padding-left: .8rem;
 }
 
 /*full text*/
@@ -126,7 +126,7 @@
     border-collapse: collapse;
     border-spacing: 1px;
     color: #444;
-    /*overflow: auto;*/
+    overflow: auto;
     max-width: 100% !important;
     width: 100%;
     border: none;

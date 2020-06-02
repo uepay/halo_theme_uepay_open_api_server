@@ -23,6 +23,5 @@
 <#--    <#list archives as archive>-->
 <#--        <h2>${archive.year?c}</h2>-->
 <#--    </#list>-->
-<div>333</div>
 </@layout>
 
